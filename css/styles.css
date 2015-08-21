@@ -3,7 +3,7 @@ html
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: #efdcd3;
+  background-color: #393536;
   color:#1c1c1c;
 }
 *, *:before, *:after 
@@ -24,12 +24,13 @@ body
 {
     background-color: #393536;
     color: #efdcd3;
-    height:75px;
+    height:85px;
     font-size: 2em;
     text-transform: uppercase;
     position: fixed;
     top:0;
     width: 100%;
+    z-index: 999;
 }
 
 #nav-menu
@@ -76,6 +77,8 @@ body
 {
     width:100%;
     font-size: 1.5rem;
+    background-color: #efdcd3;
+    padding: 50px 0 50px 0
 }
 
 #introduction-section .content
@@ -88,14 +91,23 @@ body
 #introduction-section .content p
 {
     margin:0;
-    line-height: 1.65em;
+    line-height: 1.7em;
+    letter-spacing: .02em;
+    max-width: 575px;
 }
 
 #project-section
 {
-    /*padding-top: 75px;*/
+    /*padding-top: 85px;*/
     background-color: #393536;
     
+}
+
+#project-section .content
+{
+    width:90%;
+    margin:0 auto;
+    text-align: center;
 }
 
 .anchor{
@@ -107,11 +119,18 @@ body
 {
     display: inline-block;
     padding: 10px;
+    width:45%;
+    opacity: .75;
+}
+
+.project-thumb:hover
+{
+    opacity: 1;
 }
 
 .project-thumb img
 {
-    width:300px;
+    width:100%;
 }
 /*
 
@@ -208,4 +227,44 @@ body
 div, nav
 {
 	/*border: 1px dotted red;*/
+}
+
+@media (max-width: 900px) 
+{ 
+    #introduction-section .content
+    {
+        width:65%;
+        margin:0 auto;
+        padding: 20px 0 20px 0;
+    }
+}
+
+@media (max-width: 630px) 
+{ 
+    #nav-container
+    {
+        font-size: 1.75em;
+    }
+     #introduction-section
+    {
+        padding:35px 0 35px 0;
+    }
+    #introduction-section .content
+    {
+        width:80%;
+    }
+}
+
+@media (max-width: 423px) 
+{ 
+    #introduction-section
+    {
+        padding:25px 0 25px 0;
+    }
+    #introduction-section .content
+    {
+        width:90%;
+        padding:0;
+    }
+    
 }
