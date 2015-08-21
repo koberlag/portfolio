@@ -63,14 +63,16 @@ body
 {
     text-decoration: none;
     color:#efdcd3;
-    border-bottom:2px #78517b solid
-
+    /*border-bottom:2px #78517b solid*/
+    border-bottom:2px #ee6233 solid
 }
 
 #me:hover
 {
-     color:#78517b;
-    border-bottom: #78517b 2px solid;
+    color:#ee6233;
+    border-bottom: #ee6233 2px solid;
+     /*color:#78517b;
+    border-bottom: #78517b 2px solid;*/
 }
 
 #introduction-section
