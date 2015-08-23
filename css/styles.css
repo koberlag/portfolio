@@ -20,12 +20,11 @@ body
     font-weight: 400;
 }
 
-#nav-container
+#welcome
 {
     background-color: #393536;
     color: #efdcd3;
-    height:85px;
-    font-size: 2em;
+    font-size: 1em;
     text-transform: uppercase;
     position: fixed;
     top:0;
@@ -33,6 +32,19 @@ body
     z-index: 999;
 }
 
+#nav-header
+{
+    padding:10px;
+}
+
+#nav-header p
+{
+    padding: 0px;
+    margin:0 auto;
+    width:50%;
+    text-align: center;
+}
+/*
 #nav-menu
 {
     width:80%;
@@ -50,7 +62,7 @@ body
 .nav-item
 {
     padding: 10px;
-}
+}*/
 
 #code
 {
@@ -92,7 +104,7 @@ body
 
 #introduction-section .content p
 {
-    margin:0;
+    margin:0 auto;
     line-height: 1.7em;
     letter-spacing: .02em;
     max-width: 575px;
@@ -154,26 +166,82 @@ body
 	width: 25%;
     margin: 0 auto;
     padding: 0 1rem;
+    text-align: center;
 }
 
-.social-list
+/*.social-list
 {
 	list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
+}*/
+
+.social-container a
+{
+    background-color: #393536;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; 
+    display: inline-block;
+    margin: 1.25rem 5px;
+    text-align: center;
+    color:white;
+    font-size:18px;
 }
 
+.social-container .fa
+{
+    opacity: .5;
+}
+
+.social-container a:hover .fa
+{
+    opacity: 1;
+}
+/*
 .social-item 
 {
-	background-color: #333;
+	background-color: #393536;
     border-radius: 1.25rem;
     width: 2.5rem;
     height: 2.5rem;
     display: inline-block;
     margin: 1.25rem 5px;
-    /*border: 1px solid #eaebec;*/
-    padding: 0.625rem 0;
+    
     text-align: center;
+}*/
+
+/*.social-container .fa, .social-container a{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;*/
+    /*margin-right: 3px;
+    margin-bottom: 12px;*/
+    /*position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;*/
+/*    border-radius: 50%;
+    background-color: #393536;
+}*/
+
+#social-facebook
+{
+    border: 1px solid #78517b;
+}
+#social-linkedin
+{
+    border: 1px solid #ee6233;
+}
+
+#social-github
+{
+    border: 1px solid #3cafaa; 
 }
 
 /*.social-item a
@@ -184,7 +252,7 @@ body
     position: relative;
     color: #ccc;
 }*/
-.fa {
+./*fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -204,7 +272,7 @@ body
 .social-item:hover .fa
 {
     opacity: 1;
-}
+}*/
 
 /*#content-col
 {
@@ -243,7 +311,7 @@ div, nav
 
 @media (max-width: 630px) 
 { 
-    #nav-container
+    #welcome
     {
         font-size: 1.75em;
     }
