@@ -86,9 +86,8 @@ body
 
 #project-section
 {
-    /*padding-top: 85px;*/
     background-color: #393536;
-    
+    margin-top: 25px;
 }
 
 #project-section .content
