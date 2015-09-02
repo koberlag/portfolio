@@ -20,6 +20,8 @@ body
     font-weight: 400;
 }
 
+
+
 #welcome
 {
     background-color: #393536;
@@ -51,7 +53,8 @@ body
 {
     text-decoration: none;
     color:#efdcd3;
-    border-bottom:2px #ee6233 solid
+    border-bottom:2px #ee6233 solid;
+    
 }
 
 #me:hover
@@ -65,8 +68,7 @@ body
     width:100%;
     font-size: 1.5rem;
     background-color: #efdcd3;
-    padding: 50px 0 50px 0;
-    margin-top: 102px;
+    padding: 150px 0 50px 0;
 }
 
 #introduction-section .content
@@ -82,6 +84,14 @@ body
     line-height: 1.7em;
     letter-spacing: .02em;
     max-width: 575px;
+}
+
+.anchor
+{
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
 }
 
 #project-section
@@ -165,7 +175,7 @@ body
     {
         width:65%;
         margin:0 auto;
-        padding: 20px 0 20px 0;
+        /*padding: 20px 0 20px 0;*/
     }
 }
 
@@ -173,7 +183,7 @@ body
 { 
     #introduction-section
     {
-        padding:10px 0 10px 0;
+        /*padding:110px 0 10px 0;*/
     }
     #introduction-section .content
     {
@@ -193,7 +203,7 @@ body
 { 
     #introduction-section
     {
-        padding:25px 0 25px 0;
+        /*padding:25px 0 25px 0;*/
     }
     #introduction-section .content
     {
